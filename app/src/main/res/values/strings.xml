@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FoodDeliveryApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="internet_connection_title">No Internet Connection</string>
+    <string name="internet_connection_message">Please Check Your Internet Connection</string>
+
+    <string name="products_layout1">Primimum Lily Shadows</string>
+    <string name="products_layout2">Yoga Mat(5mm)</string>
+    <string name="products_layout3">$29.98</string>
+    <string name="map">MAP<u>underline</u>.</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/triangle_bent"
+    android:gravity="center"
+    android:layout_height="120dp">
+
+    <TextView
+        fontPath="fonts/System_San_Francisco_Display_Regular.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:text="© 2018 Food Delivery | All Rights Reserved"
+android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textSize="12sp" />
+
+
+    <TextView
+        fontPath="fonts/System_San_Francisco_Display_Regular.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginTop="0dp"
+        android:text="Powered by itstarr.com"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

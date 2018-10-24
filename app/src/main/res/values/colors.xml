@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AB2234</color>
+    <color name="colorPrimaryDark">#AB2234</color>
+    <color name="colorAccent">#AB2234</color>
+    <color name="Wheat">#F5DEB3</color>
+    <color name="accent">#607D8B</color>
+    <color name="white_color">#FFFFFF	</color>
+    <color name="colorTextDisable">#66FFFFFF</color>
+    <color name="fitness_detail_text1">#454545</color>
+    <color name="product_layout_2">#f7f6f6</color>
+    <color name="product_layout_3">#575757</color>
+</resources>

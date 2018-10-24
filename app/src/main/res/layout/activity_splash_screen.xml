@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFEFF"
+    >
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+         <!--   <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/splash_logo"
+                android:layout_centerInParent="true"
+                android:src="@drawable/splash_logo"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />-->
+
+
+
+        </LinearLayout>
+
+
+
+
+        <!--
+               <TextView
+                   fontPath="fonts/System_San_Francisco_Display_Ultralight.ttf"
+                   android:id="@+id/txt1"
+                   android:textColor="@color/black"
+                   android:textStyle="normal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="35sp"
+                   android:text="        The best\n project you'll\never work on"/>
+               <LinearLayout
+
+                   android:layout_below="@+id/txt1"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="5dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       fontPath="fonts/System_San_Francisco_Display_Ultralight.ttf"
+                       android:textColor="@color/black"
+                       android:textStyle="normal"
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="35sp"
+                       android:text="            is "/>
+                   <TextView
+                       android:textStyle="bold"
+                       fontPath="fonts/System_San_Francisco_Display_Regular.ttf"
+                       android:textColor="@color/black"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="35sp"
+                       android:text="you"/>
+                   <TextView
+                       fontPath="fonts/System_San_Francisco_Display_Ultralight.ttf"
+                       android:textStyle="normal"
+                       android:textColor="@color/black"
+                       android:fontFamily="sans-serif-thin"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="35sp"
+                       android:text="!"/>
+               </LinearLayout>-->
+    </LinearLayout>
+
+
+    <!--   <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="45dp"
+           android:text="Bodies"
+           android:textSize="30dp"
+           android:layout_marginRight="15dp"
+           android:layout_alignParentRight="true"
+           android:id="@+id/textView"
+           android:textColor="#FF6600"
+           android:layout_alignParentBottom="true"
+           android:textStyle="bold"
+           android:layout_marginBottom="30dp"
+           fontPath="fonts/System_San_Francisco_Display_Regular.ttf"/>-->
+</RelativeLayout>

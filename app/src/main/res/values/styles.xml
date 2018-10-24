@@ -1,0 +1,26 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#AB2234</item>
+        <item name="colorPrimaryDark">#AB2234</item>
+        <item name="colorAccent">#AB2234</item>
+    </style>
+
+
+    <style name="AppTheme.Drawer" parent="ThemeOverlay.AppCompat.Dark.ActionBar" android:textSize="12sp">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+
+    <style name="AppTheme.WhiteAccent">
+        <item name="colorAccent">#AB2234</item> <!-- Whatever color you want-->
+    </style>
+
+
+
+
+
+</resources>

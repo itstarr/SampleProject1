@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+
+    >
+    <ProgressBar
+        android:layout_height="500dp"
+        android:theme="@style/AppTheme.WhiteAccent"
+
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/progressBar1"/>
+
+
+    <WebView
+        android:layout_marginTop="10dp"
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+<!--
+<ScrollView
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_marginTop="10dp"
+            android:background="#F3F2F3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:layout_below="@+id/view1"
+            android:orientation="vertical"
+            android:id="@+id/layout1"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+
+            <TextView
+                android:textColor="#B2B2B2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YOUR LOCATION"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:orientation="horizontal"
+            android:layout_below="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@mipmap/location_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textColor="#11213D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WORK (First floor Upkaar diary)"/>
+
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_below="@+id/layout2"
+
+            android:id="@+id/search_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="0px"
+                android:layout_height="0px"/>
+
+            <EditText
+                android:id="@+id/search_bar"
+                fontPath="fonts/Signika-Regular.otf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/edit_text_rectangular_background"
+                android:elevation="1dp"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:hint="Search for resturants,cuisines.."
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_below="@+id/search_relative_layout"
+            android:id="@+id/view2"
+            android:layout_marginTop="10dp"
+            android:background="#F3F2F3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="#EAEAEA"
+            android:layout_below="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/round_corner_layout"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#11213D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORK (First floor Upkaar diary)"/>
+
+
+
+
+
+                <TextView
+                    android:textSize="16dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Use code bite to get 30% off up to 50"/>
+
+
+                <TextView
+                    android:textSize="16dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="on your next order"/>
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:textColor="#11213D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recommendations For You"/>
+
+
+            <View
+                android:id="@+id/view3"
+                android:layout_marginTop="10dp"
+                android:background="#DBDBDB"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/resturtant_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none" />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+-->
+</RelativeLayout>

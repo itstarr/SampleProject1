@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    >
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingTop="0dp"
+        android:id="@+id/layout_head"
+        android:paddingBottom="0dp"
+        android:background="@color/colorPrimary">
+        <include
+            layout="@layout/toolbar" />
+    </RelativeLayout>
+
+
+
+    <!--<LinearLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_below="@+id/layout_head">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/untitled_home"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="40dp"
+            android:background="@drawable/one_sided_rounded_corner_button1"
+            android:gravity="center"
+            android:id="@+id/upload_contacts"
+            android:textColor="@color/white_color"
+            />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="40dp"
+            android:layout_marginLeft="2dp"
+  android:drawableLeft="@drawable/untitled_chat"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+           android:background="#8e8e8e"
+            android:gravity="center"
+  android:id="@+id/twitter"
+
+            />
+
+
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="40dp"
+            android:layout_marginLeft="2dp"
+            android:drawableLeft="@drawable/untitled_chat"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="#8e8e8e"
+            android:gravity="center"
+  android:id="@+id/facebook"
+
+            />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="2dp"
+            android:drawableLeft="@drawable/untitled_home"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="40dp"
+            android:background="@drawable/one_sided_rounded_corner_button2"
+            android:gravity="center"
+          android:layout_marginRight="10dp"
+  android:id="@+id/msg"
+            />
+
+    </LinearLayout>-->
+
+    <FrameLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/layout_head"
+        android:background="@color/white_color"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_layout">
+    </FrameLayout>
+
+
+
+</RelativeLayout>
+
